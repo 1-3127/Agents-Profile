@@ -90,6 +90,7 @@
 
 ## UE 백업 연계
 
+- UE 레벨을 수정하는 작업은 원본 레벨을 보존한다. 원본을 복사한 뒤 복사본 이름에 `_01`, `_02`처럼 순차 접미사를 붙여 작업한다. 예: `LV_FluidFlux` → `LV_FluidFlux_01`.
 - Critical 삭제·덮어쓰기는 `Agents/workflow.md`의 `.backups` 정책을 따릅니다.
 - UE 에셋은 안전한 저장이 완료됐는지 먼저 확인합니다.
 - PIE, package save, garbage collection 또는 async loading 중에는 에셋 백업·삭제를 수행하지 않습니다.
