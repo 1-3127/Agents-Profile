@@ -2,7 +2,7 @@
 
 ## 적용 범위와 우선순위
 
-- 이 파일은 `D:\VSCODE-WorkSpace\UE` 아래의 Unreal Engine 및 UE MCP 작업에 적용합니다.
+- 이 파일은 VSCode 루트 기준 `./UE` 아래의 Unreal Engine 및 UE MCP 작업에 적용합니다.
 - 루트 `AGENTS.md`와 `Agents/workflow.md`를 함께 따릅니다.
 - 더 가까운 경로의 `AGENTS.md`가 저장소·플러그인·소스 영역의 구체적 규칙을 정의하면 해당 규칙을 우선합니다.
 - `repo_install-MCP/UEMCP_561` 작업에서는 `UE_MCP_CODEX_GUIDELINES.md`를 먼저 확인합니다.

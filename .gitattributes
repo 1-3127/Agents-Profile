@@ -1,0 +1,4 @@
+# Store text consistently and keep documentation portable across Windows and Unix.
+* text=auto
+*.md text eol=lf
+*.txt text eol=lf
